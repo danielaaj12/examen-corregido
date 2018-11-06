@@ -1,0 +1,24 @@
+header{
+    background-color:$purple;
+    
+    .headConteiner{
+        padding-top: 57px;
+        padding-bottom: 147px;
+    }
+    h2{  
+        font-weight: 300;
+        text-align: center;
+        padding-top: 140px;
+        padding-bottom: 60px;
+        font-size: 2.5em;
+        
+    }
+
+    button{
+        @include button;
+        background-color: $orange;
+        border-bottom: 4px solid $darkorange;
+
+    }
+}
+

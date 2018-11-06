@@ -1,0 +1,23 @@
+header{
+    ul{
+        float: right;
+    
+        li{
+            display: inline-block;
+            text-transform: uppercase;
+            transition: 0.2s;
+            display: inline-block;
+            text-transform: uppercase;
+            padding: 0 20px;
+            &:hover{
+                background-color:$darkpurple;
+                cursor: pointer;
+            }
+    
+            a{ 
+                font-size: 1em;
+                text-align: center;
+            }
+        }
+    }
+}
